@@ -1,0 +1,6 @@
+.DS_Store
+cyrrilic_mnist/__pycache__/
+cyrrilic_mnist/Cyrillic/
+efnet_active/train_model.py
+cyrrilic_mnist/train.png
+cyrrilic_mnist/model.pth
