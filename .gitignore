@@ -7,3 +7,6 @@ cyrrilic_mnist/model.pth
 cyrrilic_mnist/model.pth
 cyrrilic_mnist/train.png
 efnet_active/train_model.py
+simple_obj_detection/shapes_dataset
+simple_obj_detection/shapes_dataset_bg
+simple_obj_detection/shapes_dataset_random
