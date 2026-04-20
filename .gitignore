@@ -4,3 +4,6 @@ cyrrilic_mnist/Cyrillic/
 efnet_active/train_model.py
 cyrrilic_mnist/train.png
 cyrrilic_mnist/model.pth
+cyrrilic_mnist/model.pth
+cyrrilic_mnist/train.png
+efnet_active/train_model.py
