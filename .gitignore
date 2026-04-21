@@ -12,3 +12,4 @@ simple_obj_detection/shapes_dataset_bg
 simple_obj_detection/shapes_dataset_random
 venv
 yolo26n.pt
+yolo/spheres_and_cubes_new
