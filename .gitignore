@@ -14,3 +14,8 @@ venv
 yolo26n.pt
 yolo/spheres_and_cubes_new
 pushups/yolo26n-pose.pt
+yolo26n-pose.pt
+testing_EfficientnetB0-B2/b0.pth                                                                         
+testing_EfficientnetB0-B2/b1.pth                                                                        
+testing_EfficientnetB0-B2/b2.pth    
+testing_EfficientnetB0-B2/spheres_and_cubes_new     

@@ -101,7 +101,7 @@ class SimpleDetector(nn.Module):
 
         return cls, bbox
 
-# пересечения ббоксов
+# пересечения ббоксов (метрика=пересечен/объединение)
 def compute_iou(pred, target):
     
     # перевод в углы
@@ -123,7 +123,6 @@ def compute_iou(pred, target):
 
     union = ((p_x2 - p_x1) * (p_y2 - p_y1)) + ((t_x2 - t_x1) * (t_y2 - t_y1)) - inter # S объединения = S1 + S2 - пересечение
     return inter / (union + 1e-7) # IoU 
-
 
 def giou_loss(pred, target):
     p_x1 = pred[:, 0] - pred[:, 2] / 2
@@ -158,6 +157,7 @@ def giou_loss(pred, target):
     area_c = (c_x2 - c_x1).clamp(min=0) * (c_y2 - c_y1).clamp(min=0)
 
     # GIoU = IoU - (area_c - union)/area_c
+    # area_c - минимальный enclosing box
     giou = iou - (area_c - union) / (area_c + 1e-7) # штраф если bbox далеко
 
     return (1 - giou).mean()

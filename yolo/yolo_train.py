@@ -72,5 +72,4 @@ result = model.train(
     amp=True # ускоряет обучение 
 )
 
-print("DONE")
 print(result.save_dir)
