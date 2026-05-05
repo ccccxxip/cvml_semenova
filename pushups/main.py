@@ -85,7 +85,7 @@ while camera.isOpened():
 
     annotator = Annotator(frame)
     annotator.kpts(result.keypoints.data[0], 
-                   result.orig_shape, 5, True)
+                   result.orig_shape, 5, True) # рисуем скелет 
     annotated = annotator.result()
 
     # считаем отжимания 
