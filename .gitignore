@@ -19,3 +19,11 @@ testing_EfficientnetB0-B2/b0.pth
 testing_EfficientnetB0-B2/b1.pth                                                                        
 testing_EfficientnetB0-B2/b2.pth    
 testing_EfficientnetB0-B2/spheres_and_cubes_new     
+decoder_mode1.pth
+decoder_mode2.pth
+decoder_mode3.pth
+decoder_mode4.pth
+encoder_mode1.pth
+encoder_mode2.pth
+encoder_mode3.pth
+encoder_mode4.pth
