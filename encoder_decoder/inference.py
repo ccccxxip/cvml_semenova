@@ -34,7 +34,7 @@ for i, mode in enumerate([1, 2, 3, 4]):
     plt.title("восстановление")
 
     plt.subplot(4, 3, i*3 + 3)
-    plt.imshow((image.cpu().squeeze() - result.cpu().squeeze()), cmap="gray")
+    plt.imshow((image.cpu().squeeze() - result.cpu().squeeze()))
     plt.title("разница")
 
 plt.tight_layout()
