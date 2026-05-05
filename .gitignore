@@ -27,3 +27,4 @@ encoder_mode1.pth
 encoder_mode2.pth
 encoder_mode3.pth
 encoder_mode4.pth
+encoder_decoder/__pycache__
